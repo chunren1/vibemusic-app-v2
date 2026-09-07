@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "vibemusic-app-v2",
+    "slug": "vibemusic-app-v2",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "vibemusic-v2",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#0a0a0f"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.cyk666.vibemusic.v2"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0f"
+      },
+      "package": "com.cyk666.vibemusic.v2",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-asset",
+      "expo-font"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "apiUrl": "https://vibe.cyk666.top",
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "85bca6f2-007f-47c9-a4fb-161f803d9dc8"
+      }
+    },
+    "owner": "eakonchen"
+  }
+}
